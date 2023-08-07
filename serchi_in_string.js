@@ -16,3 +16,13 @@ if (ganner_koli.indexOf('pakhi') !== -1) {
 else {
     console.log('cannot find it');
 }
+//starts with
+const start_with = ganner_koli.startsWith('2umi');
+console.log(start_with);
+
+// endswith
+const fileName = 'mybiodatagfgf.pdf';
+const otherFile = 'mypicsfd.png';
+
+const file_end = fileName.endsWith('.pdf');
+console.log(file_end);
