@@ -17,3 +17,13 @@ console.log(part);
 //substring.................kete neya
 const part_substring = ganner_koli.substring(5, 12);
 console.log(part_substring);
+//join
+const lines = [
+    'Tumi bondhu kala Pakhi ami jeno ki',
+    'Bosonto kale tomai bolte pari ni',
+    'Kala kala sada sada',
+    'Rong jomeche sada kala'
+];
+
+const newSong = lines.join('. ')
+console.log(newSong)
